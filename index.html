@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pawfect Home | Pet Adoption</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Pet Patrol Logo" class="logo-img">
+        🐾 Pet Patrol <span>| Where every pet finds a family</span>
+      </div>
+
+      <nav class="dropdown-nav">
+        <button class="menu-toggle">☰ Menu</button>
+        <ul class="dropdown-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="policies.php">Adoption Policies</a></li>
+          <li><a href="petlisting.php">Available Pets</a></li>
+          <li><a href="developer.php">Developer</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="register.php">Register</a></li>
+        </ul>
+      </nav>
+
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="section-content">
+        <div class="hero-details">
+          <h2 class="title" style="color: white;">ALL LIVES MATTER</h2>
+          <h3 class="subtitle" style="color: white;">A variety of lovely pets that need your care and affection</h3>
+          <p class="description" style="color: white;">Be the hero they’ve been waiting for. Your future best friend is
+            just one step away.</p>
+          <div class="buttons">
+            <button class="button adoptpet" onclick="location.href='login.php'">Log In Now</button>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="images/landingpage.jpg" alt="Hero Image" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <section class="pet-hero-stories">
+      <h2 class="story-title">Heroic Pets & Their Inspiring Stories</h2>
+      <div class="story-container">
+        <div class="story-item">
+          <img src="images/kabang (1).jpg" alt="Brave Dog">
+          <h3>Kabang – The Snoutless Dog Hero of Zamboanga</h3>
+          <p> In 2011, Kabang jumped in front of a motorcycle to save two young girls, resulting in the loss of her
+            upper snout. She survived, became a global symbol of bravery, and even received medical care in the U.S.
+            funded by international donations.</p>
+        </div>
+        <div class="story-item">
+          <img src="images/sergio.jpg" alt="Dog">
+          <h3> Sergio – Military Dog Hero</h3>
+          <p>A Belgian Malinois serving with the Philippine Army, Sergio sniffed out IEDs and protected troops during
+            operations. He saved countless lives and was honored with a military burial.</p>
+        </div>
+        <div class="story-item">
+          <img src="images/shadow.jpg" alt="dog">
+          <h3> Dog “Shadow” – Rescuer Dog in Yolanda </h3>
+          <p>Shadow, a volunteer dog, helped sniff survivors and bodies during the aftermath of Typhoon Yolanda in 2013.
+          </p>
+        </div>
+        <div class="story-item">
+          <img src="images/tisay.jpg" alt="Mother Cat">
+          <h3>Tisay the Cat – House Fire Alarm</h3>
+          <p> In Quezon City, Tisay meowed loudly and persistently during a house fire in 2022, waking her family just
+            in time to escape. The family credits her for saving their lives.
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="how-to-adopt">
+      <h2 class="adopt-title">How to Adopt a Pet</h2>
+      <div class="adopt-container">
+        <div class="adopt-step">
+          <img src="images/search (1).png" alt="Search Icon">
+          <h3>Find Your Pet</h3>
+          <p>Browse our list of adorable pets looking for a loving home.</p>
+        </div>
+        <div class="adopt-step">
+          <img src="images/form.png" alt="Form Icon">
+          <h3>Submit an Application</h3>
+          <p>Fill out an easy adoption form and tell us about yourself.</p>
+        </div>
+        <div class="adopt-step">
+          <img src="images/home (1).png" alt="Home Icon">
+          <h3>Welcome Home</h3>
+          <p>Once approved, bring your new best friend home with love.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section class="donation-animals">
+    <style>
+      .donation-animals {
+        background: #fff9e6;
+        /* light yellow background */
+        padding: 50px 20px;
+        text-align: center;
+      }
+
+      .donation-header {
+        margin-bottom: 40px;
+      }
+
+      .donation-header img {
+        width: 50%;
+        max-width: 500px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .donation-animals-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+      }
+
+      .donation-image {
+        text-align: center;
+      }
+
+      .donation-image img {
+        width: 200px;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .donation-image p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .animal-text {
+        max-width: 400px;
+        text-align: left;
+      }
+
+      .animal-text h2 {
+        font-size: 2rem;
+        color: #333;
+      }
+
+      .animal-text p {
+        font-size: 1.1rem;
+        color: #555;
+        margin: 10px 0;
+      }
+    </style>
+
+    <div class="donation-header">
+      <img src="images/donationHeader.jpg" alt="Animals">
+    </div>
+
+    <div class="donation-animals-container">
+      <div class="donation-image">
+        <img src="images/donationQR.jfif" alt="Donate to Save Lives">
+
+      </div>
+
+      <div class="animal-text">
+        <h2>Support Their Journey Home 🐾</h2>
+        <p>Your donations provide food, shelter, and medical care to pets in need.
+          Every small act of kindness brings them closer to a forever family.
+          Help us make a difference today!</p>
+        <p>Donate Now!</p>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>Reach us at:
+        <a href="mailto:ponyososukesheltercenter@gmail.com">ponyososukesheltercenter@gmail.com</a>
+      </p>
+      <p>&copy; 2025 ALL RIGHTS RESERVED.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleButton = document.querySelector('.menu-toggle');
+      const dropdownNav = document.querySelector('.dropdown-nav');
+
+      // Toggle menu
+      toggleButton.addEventListener('click', function (event) {
+        event.stopPropagation();
+        dropdownNav.classList.toggle('active');
+      });
+
+      // Click outside to close
+      document.addEventListener('click', function (event) {
+        if (!dropdownNav.contains(event.target)) {
+          dropdownNav.classList.remove('active');
+        }
+      });
+
+      // Close on scroll
+      window.addEventListener('scroll', function () {
+        dropdownNav.classList.remove('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
